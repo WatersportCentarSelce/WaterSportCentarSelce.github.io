@@ -1,0 +1,90 @@
+/* CSS styles for the website */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #007bff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo img {
+    max-height: 50px;
+    padding: 5px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #f9f9f9;
+  }
+  
+  .cover-image {
+    text-align: center;
+    background-image: url(images/cover.jpeg);
+    padding: 40px;
+    height: 500px;
+    color: #ffffff;
+  }
+  
+  h1 {
+    color: #007bff;
+  }
+  
+  .quote-field {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .image-showcase {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .image-showcase img {
+    max-width: 100%;
+    padding: 5px;
+  }
+  
+  .about-us {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .map {
+    padding: 20px;
+  }
+  
+  .contact-details {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
